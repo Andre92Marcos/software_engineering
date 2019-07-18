@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.andre.isidoro.sofware_engeeniring.design_patterns</groupId>
-  <artifactId>composite</artifactId>
+  <artifactId>decorator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>composite</name>
+  <name>decorator</name>
   <url>http://maven.apache.org</url>
 
   <properties>

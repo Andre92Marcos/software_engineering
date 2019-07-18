@@ -1,0 +1,13 @@
+package com.andre.isidoro.sofware_engeeniring.design_patterns.decorator;
+
+
+public class App {
+	public static void main(String[] args) {
+		Car sportsCar = new SportsCar(new BasicCar());
+		sportsCar.assemble();
+		System.out.println("\n*****");
+
+		Car sportsLuxuryCar = new SportsCar(new LuxuryCar(new BasicCar()));
+		sportsLuxuryCar.assemble();
+	}
+}
